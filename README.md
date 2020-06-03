@@ -1,4 +1,4 @@
-#Apache2-Django-Tutorial
+# Apache2-Django-Tutorial
 
 This is a tutorial for setting up an Apache2 server that is able to serve a Django project for production purposes.
 If you are reading this is probably because you are finally ready to take your Django project to the next level!
@@ -85,7 +85,6 @@ This shouldn't be done in production!
 ALLOWED_HOSTS=[' * ']
 
 ### 5)  Fire up the Django Web Server, and check if everything is working
-
 '''
 cd /protest/django/protest
 python3 manage.py runserver 0.0.0.0:8000
@@ -95,4 +94,4 @@ You should see some command line output complaining about some migrations, and t
 If now, you may have introduced some errors along this tutorial, solve this before proceeding.
 
 
-### 6) 
+### 6)
